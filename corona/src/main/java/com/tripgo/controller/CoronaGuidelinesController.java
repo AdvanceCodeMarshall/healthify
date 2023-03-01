@@ -18,7 +18,7 @@ public class CoronaGuidelinesController {
 	
 	@GetMapping("/guidelines")
 	public String showCoronaGuidelines(Model model) {
-		return "guidelines [oxygenLevels: "+oxygenLevels + ", quarantine days: "+ quarantine + ", liters : "+ liters + ", temparatureLevels: " + temparatureLevels + "]";
+		return "guidelines [oxygenLevels: " + oxygenLevels + ", quarantine days: " + quarantine + ", liters : " + liters + ", temparatureLevels: " + temparatureLevels + "]";
 	}
 
 }
